@@ -3,7 +3,6 @@
 '''
 from imc import Application, root, IMC
 
-#app = Application(master=root, title='Cálculo do IMC - Índice de Massa Corporal')
 app = IMC(master=root, title='Cálculo do IMC - Índice de Massa Corporal')
 
 if __name__ =='__main__':
